@@ -48,6 +48,13 @@ function setup() {
   block15 = new Block(420,195,30,40);
   //top
   block16 = new Block(390,155,30,40);
+  
+  block17 = new Block(670, 175, 30, 40);
+  block18 = new Block(700, 175, 30, 40);
+  block19 = new Block(730, 175, 30, 40);
+  block20 = new Block(685, 135, 30, 40);
+  block21 = new Block(715, 135, 30, 40);
+  block22 = new Block(700, 95, 30, 40);
 
   poly = new Poly(50, 200, 40);
 
@@ -67,6 +74,7 @@ function draw() {
 
   ground.display();
   stand1.display();
+  stand2.display();
   
   strokeWeight(2);
   stroke(15);
@@ -90,6 +98,12 @@ function draw() {
   block15.display();
   fill("grey");
   block16.display();
+   block17.display();
+   block18.display();
+   block19.display();
+   block20.display();
+   block21.display();
+   block22.display();
 
   poly.display();
   slingShot.display();
