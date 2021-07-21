@@ -98,11 +98,14 @@ function draw() {
   block15.display();
   fill("grey");
   block16.display();
+  fill("pink");
    block17.display();
    block18.display();
    block19.display();
+  fill("cyan");
    block20.display();
    block21.display();
+  fill("white");
    block22.display();
 
   poly.display();
