@@ -67,7 +67,6 @@ function draw() {
 
   ground.display();
   stand1.display();
-  stand2.display();
   
   strokeWeight(2);
   stroke(15);
